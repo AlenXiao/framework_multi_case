@@ -8,10 +8,10 @@ There are three parts with the framework, FSM for user input, case function and 
    to framework parser.
 
 2. Framework parser:
-   Used to parse case function according to case index from user, and call entrance of case function saved in case list array. Entrance of all the case
-   functions are saved in case list array. It divides the framework parser and case functions, and enables them evolve respectively. In another words, one of
-   them is modified, the other one works well without any modification. Even if new cases needed to add according to customer, current exisiting cases and 
-   framework works without modification. Besides, case functions and framework parser can be implemented parallelly with different engineer.
+   Used to parse case function according to case index from user, and call entrance of case function saved in case list array which saves entrance address of
+   all the cases. It divides the framework parser and case functions, and enables them evolve respectively. In another words, one of them is modified, the
+   other one works well without any modification. Even if new cases needed to add according to customer, current exisiting cases and framework works without
+   modification. Besides, case functions and framework parser can be implemented parallelly with different engineer. It works like Django to parser URL.
 
 3. Case functions:
    Used to implement the detail operation and drive destination module to work. it also give indication (LED Blink) to indicate the status of operation.
